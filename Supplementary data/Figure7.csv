@@ -1,0 +1,11 @@
+view,outcome,model,cohort,subset,timesChosen,nOuterFolds,frequency,isWinner,winnerOuterBalancedAccuracy,winnerBalancedAccuracyCILower,winnerBalancedAccuracyCIUpper,winnerOuterAUC,winnerAUCCILower,winnerAUCCIUpper
+markov,MRDflow,elasticnet,balanced virtual patients,"M13,M14",8,10,8/10,yes,0.676470588235294,0.604582060096766,0.747058823529412,0.722975778546713,0.624299719887955,0.815317185697809
+markov,MRDflow,elasticnet,balanced virtual patients,"M13,M14,M34",1,10,1/10,no,,,,,,
+markov,MRDflow,elasticnet,balanced virtual patients,"M13,M44",1,10,1/10,no,,,,,,
+markov,MRDflow,lasso,balanced virtual patients,"M13,M14",5,10,5/10,yes,0.694117647058824,0.624616727204113,0.755790963909492,0.703044982698962,0.604309165526676,0.794577633378933
+markov,MRDflow,lasso,balanced virtual patients,"M13,M14,M34",2,10,2/10,no,,,,,,
+markov,MRDflow,lasso,balanced virtual patients,"M11,M12",1,10,1/10,no,,,,,,
+markov,MRDflow,lasso,balanced virtual patients,M13,1,10,1/10,no,,,,,,
+markov,MRDflow,lasso,balanced virtual patients,"M13,M14,M24",1,10,1/10,no,,,,,,
+markov,MRDflow,ridge,balanced virtual patients,M13,9,10,9/10,yes,0.647058823529412,0.575410043535487,0.711764705882353,0.68795847750865,0.575582967750051,0.791351565431275
+markov,MRDflow,ridge,balanced virtual patients,"M11,M13",1,10,1/10,no,,,,,,
