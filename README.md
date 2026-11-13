@@ -21,7 +21,4 @@ Each figure folder is self-contained. Change into that folder in MATLAB before r
 | `Supplementary figures/` | Scripts and PNG panels for the supplementary figures |
 
 
-## Notes
 
-- Paths are resolved from each script location; no machine-specific directories are required.
-- Generated figures are written as PNG files under each folder's `outputs/` directory.
